@@ -1,4 +1,4 @@
-## Kmeans
+# Kmeans😋
 
 | two gaussians dataset| kmeans with 2 clusters | kmeans with 5 clusters |
 |:-----------------------:|:----------------------:|:----------------------:|
@@ -30,3 +30,15 @@ for i in range(num_iterations):
 # codes: the cluster index or label of each sample, (n_samples,)
 # codebooks: the final codebooks, (v_clusters, d_features)
 ```
+
+## More
+
+For more details, please refer to the [`kmeans.ipynb`](./kmeans.ipynb), here also contains the animation of processing k-means algorithm.
+
+```bash
+pip install numpy torch einops
+```
+
+> Note: 
+> - `utils.py` contains the code to generate the two gaussians dataset and the animation code.
+> - `more.py`  contains some of the product_quantization demo code when I was struggling with fairseq wav2vec2.0😭😭😭.

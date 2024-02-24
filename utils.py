@@ -40,19 +40,12 @@ class Animator:
         >>> from animator import Animator
         >>> import numpy as np
         >>> ani = Animator()
-        >>> # 设置循环次数
         >>> num_iterations = 20
-        >>> 
         >>> for i in range(num_iterations):
-        >>>     # 生成一些示例数据，你需要根据你的需求修改这部分
         >>>     x = np.random.rand(10)
         >>>     y = np.random.rand(10)
-        >>>     # 绘制散点图
         >>>     ani.ax.scatter(x, y)
-        >>>     
         >>>     ani.render(0.05) 
-        >>> 
-        >>> # 关闭图形
         >>> ani.close()
         """
         self.fig, self.ax = plt.subplots()  
